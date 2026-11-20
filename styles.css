@@ -383,3 +383,82 @@ body::before { z-index:0; background:radial-gradient(ellipse at 50% 2%,rgba(62,2
   .track-card--education.scroll-reveal,.track-card--awards.scroll-reveal,.track-card--education.scroll-reveal.is-visible,.track-card--awards.scroll-reveal.is-visible,.track-card--community.scroll-reveal { transform:none !important; }
   .track-card,.community-lines>div,.achievement-list a { transition:none !important; }
 }
+
+/* Reading-size pass: increase supporting copy while keeping ornament labels compact. */
+.nav { font-size:12px; }
+.button { font-size:13px; }
+.hero__lede { font-size:17px; }
+.hero__meta { font-size:11px; }
+.open-pill { font-size:10px; }
+.proof-strip__intro { font-size:11px; }
+.proof-metric>span { font-size:9px; }
+.proof-metric small { font-size:8px; }
+.startup-copy p { font-size:14px; }
+.startup-actions .button { font-size:12px; }
+.text-link { font-size:10px; }
+.section-heading>p,.toolkit-head__note { font-size:13px; }
+.filter-chip { font-size:10px; }
+.project-overline { font-size:9px; }
+.project-card__body>p { font-size:14px; }
+.project-outcome span { font-size:9px; }
+.project-points li { font-size:12px; }
+.tag-row span { font-size:10px; }
+.project-links,.work-more { font-size:11px; }
+.experience-date { font-size:10px; }
+.role-label { font-size:9px; }
+.experience-main>p { font-size:14px; }
+.experience-highlights b { font-size:9px; }
+.experience-highlights span { font-size:12px; }
+.experience-result>span { font-size:7px; }
+.experience-result>b { font-size:9px; }
+.principle-card p { font-size:13px; }
+.principle-foot { font-size:9px; }
+.toolkit-group h3 { font-size:14px; }
+.toolkit-group p { font-size:12px; }
+.toolkit-num { font-size:10px; }
+.track-eyebrow,.track-step { font-size:9px; }
+.track-bottom p { font-size:12px; }
+.track-bottom>div { font-size:9px; }
+.track-score span { font-size:9px; }
+.achievement-list small,.community-lines small { font-size:11px; }
+.achievement-side { font-size:8px; }
+.community-lines b { font-size:12px; }
+.community-link { font-size:11px; }
+.contact-main>p { font-size:14px; }
+.contact-links>a>span,.social-pair a { font-size:10px; }
+.contact-links>a>b { font-size:12px; }
+.site-footer { font-size:8px; }
+@media(max-width:780px) {
+  .hero__lede { font-size:15px; }
+  .section-heading>p,.toolkit-head__note { font-size:13px; }
+  .project-card__body>p { font-size:13px; }
+  .experience-main>p { font-size:13px; }
+  .experience-highlights span { font-size:11px; }
+  .toolkit-group p { font-size:11px; }
+  .contact-main>p { font-size:13px; }
+}
+@media(max-width:560px) {
+  .hero__lede { font-size:13px; }
+  .hero__meta,.open-pill { font-size:9px; }
+  .proof-metric>span { font-size:8px; }
+  .proof-metric small { font-size:7px; }
+  .startup-copy p { font-size:11px; }
+  .section-heading>p,.toolkit-head__note { font-size:12px; }
+  .filter-chip { font-size:9px; }
+  .project-card__body>p { font-size:12px; }
+  .project-points li { font-size:11px; }
+  .project-links,.work-more { font-size:10px; }
+  .experience-main>p { font-size:12px; }
+  .experience-highlights span { font-size:10px; }
+  .toolkit-group h3 { font-size:12px; }
+  .toolkit-group p { font-size:11px; }
+  .track-bottom p { font-size:11px; }
+  .track-bottom>div { font-size:9px; }
+  .achievement-list b { font-size:11px; }
+  .achievement-list small,.community-lines small { font-size:10px; }
+  .community-lines b { font-size:11px; }
+  .community-link { font-size:10px; }
+  .contact-main>p { font-size:12px; }
+  .contact-links>a>b { font-size:10px; }
+  .site-footer { font-size:7px; }
+}
